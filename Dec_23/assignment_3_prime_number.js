@@ -1,6 +1,6 @@
 var a = prompt("Enter the limit");
 cof = 0;
-// a = parseInt(a);
+a = parseInt(a);
 for(var i = 2; i <= a/2-1;)
   {
     if (a % i == 0)
