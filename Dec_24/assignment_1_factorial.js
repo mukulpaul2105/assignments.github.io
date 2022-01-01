@@ -7,3 +7,4 @@ for( i = 1; i <=n; i = i + 1)
     factorial = factorial * i;
 }
 console.log(factorial);
+alert(factorial);
