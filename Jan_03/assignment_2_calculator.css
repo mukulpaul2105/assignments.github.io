@@ -1,0 +1,33 @@
+body {
+   width: 150px;
+   margin-left: 200px;
+   border-style:groove;
+   border-collapse;
+   background-color: rgba(138, 38, 38, 0.212);
+   border-width: 5px;
+   border-radius: 10px;
+   margin-top: 50px;
+   margin-bottom: 100px;
+
+}
+#display {
+   width: 140px;
+   height: 35px;
+   margin-left: 5px;
+   background-color: white;
+   border-radius: 10px;
+   text-align: right;
+   margin-top: 5px;
+   margin-bottom: 10px;
+
+}
+tr button {
+   width: 30px;
+   height: 30px;
+   margin-left: 2px;
+   border-radius: 5px;   
+}
+
+.button {
+   color: rgba(38, 38, 202, 0.705)
+}
