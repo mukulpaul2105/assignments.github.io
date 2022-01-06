@@ -1,0 +1,103 @@
+
+
+nav {
+   width: 100%;
+   width: 1250px;
+   height: 46px;
+   margin-left: 35.5px;
+   margin-right: 35.5px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#logo {
+   width: 143px;
+   height: 35px;
+}
+.nav_logo {
+   width: 385px;
+}
+.nav_middle {
+   width: 730px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+nav span {
+   margin-left: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+td.nav_last {
+   color: red;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+span.green {
+   color: rgb(39, 167, 66);
+   font-family: Arial, Helvetica, sans-serif;
+}
+select#courses {
+   border-collapse: collapse;
+   font-family: Arial, Helvetica, sans-serif;
+}
+a {
+   font-size: 18px;
+   color: white;
+   background-color: rgba(63, 161, 63, 0.856);
+   border-radius: 10px;
+   padding: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+article {
+   width: 100%;
+   width: 1280;
+   height: 410;
+   background-color: ;
+   margin-left: 34.5px;
+   margin-right: 34.5px;
+   padding-left: 30px;
+   padding-top: 30px;
+   padding-right: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.left_div {
+   float: left;
+   width: 59%;
+   height: 30%;
+   padding-right: 45px;
+   padding-top: 45px;
+   padding-bottom: 45px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.article_para_1 {
+   font-size: 45px;;
+}
+.right_div {  
+   float: right;
+   width: 35%;
+   height: 28%;
+   padding-right: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+#left_article_img {
+   width: 362px;
+   height: 379px;
+   padding-right: 45px;
+   padding-bottom: 30px;
+}
+
+section {
+   width: 1280;
+   height: 736;
+}
+section .table {
+   width: 1190px;
+   height: 440px;
+   border: black;
+}
+.placement_image {
+   width: 144px;
+   height: 40;
+}
