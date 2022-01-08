@@ -1,0 +1,35 @@
+article {
+   width: 300px ;
+   height: 220px;
+   border: 1px solid transparent;
+   background-color: #2f7d61;
+   margin: auto;
+   margin-top: 200px;
+
+}
+#triangle_1 {
+   margin: auto;
+   width: 0;
+   height: 0;
+   border-left: 100px solid transparent;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid #faf6d4;
+   position: relative;
+   top: 30px;
+ }
+ .triangle_2 {
+   margin: auto;
+   width: 0;
+   height: 0;
+   border-left: 100px solid transparent;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid #d1cd79;
+ }
+ .triangle_3 {
+   border-bottom: 38px solid #71c8c9;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   height: 0;
+   width: 100px;
+   margin: auto;
+ }
