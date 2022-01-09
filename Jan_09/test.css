@@ -1,0 +1,25 @@
+header {
+   margin: auto;
+   width: 1200px;
+   height: 60px;
+   
+}
+header img {
+   height: 40px;
+}
+body {
+   margin: auto;
+   margin: 60px 60px 60px 60px;
+}
+.left_part {
+   float: left;
+   width:500px;
+}
+.right_part {
+   float: right;
+   width: 500px;
+
+}
+.right_part > img {
+   height: 300px;
+}
