@@ -1,0 +1,376 @@
+/* Navigation under Header*/
+body {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+   width: 100vw;
+   height: 40px;
+   background-color:#e86123;
+   padding: 20px 0px 20px;
+   z-index: 1;
+   position: fixed;
+   margin: auto;
+}
+.nav_2 {
+   margin: auto;
+   width: 1200px;
+}
+.nav_logo {
+   display: inline-block;
+   width: 350px;
+   margin: 0px 80px 0px 70px;
+   padding-top: 10px;
+   
+   vertical-align: top;
+}
+.nav_logo > img {
+   width: 60px;
+   vertical-align:top;
+   position: relative;
+   top: -20px;
+   border-radius: 50%;
+}
+#nav_logo_text {
+   color:#FFFFFF;
+   font-weight: bold;
+   padding-left: 10px;
+   font-size: 20px;
+}
+.nav_middle {
+   display: inline-block;
+   width: 600px;
+   margin-top: 10px;
+}
+.nav_body > a {
+   margin: 0px 26px;
+   padding: 5px;
+   color: #FFFFFF;
+
+}
+.nav_middle > a {
+   background: linear-gradient(45deg, #4d9458 0%, #63b8aa 20%, #27b0b8 50%, #63b8aa 80%, #4d9458 100%);
+   margin-left: 30px;
+   color: #FFFFFF;
+   margin-top: 15px;
+   border: 1px solid transparent;
+   padding: 15px;
+   width: 100px;
+   border-radius: 15px;
+   font-size: large;
+}
+.nav_middle > a:hover {
+
+}
+a {
+   text-decoration: none;
+}
+
+/* Section 1 of the main body and side whats app logo*/
+#fixed_whatsapp_logo img {
+   height: 60px;
+   border-radius: 50%;
+   position: sticky;
+   top: 500px;
+   left: 1270px;
+}
+
+.section_1 {
+   margin: auto;
+   background-image: url("https://media.istockphoto.com/vectors/abstract-wavy-halftone-dots-background-vector-id1225681170?k=20&m=1225681170&s=612x612&w=0&h=qFzphEqIRbzXBdzL3kqcfwS2ULgmOpIRFYi_2WSgCto=");
+   background-size: cover;
+   width: 1300px;
+   height: fit-content;
+   padding: 200px 50px 180px 50px;  
+   background-color: #e1f5eb;
+}
+.section_1_left {
+   display: inline-block;
+   width: 450px;
+   height: 250px;
+   margin: 40px 10px 5px 40px;
+   padding: 10px 40px 5px 90px ;
+   vertical-align: top;
+}
+.section_1 p {
+   font-size: 20px;
+   margin: 4px;
+}
+#section_1_left_name {
+   font-size: 55px;
+   margin: 2px;
+}
+.section_1_left a {
+   border: 1px solid transparent;
+   padding: 20px;
+   font-size: 18px;
+   background: linear-gradient(45deg,#deb1b7 0%, #d18a92 20%, #d63c4e 50%, #deb1b7 80%, #d18a92 100% );
+   border-radius: 15px;
+   position: relative;
+   top: 60px;
+   color: white;
+}
+
+.section_1_right {
+   display: inline-block;
+   width: 420px;
+   height: fit-content;
+   margin: 40px 70px 20px 40px;
+   padding: 30px 40px 30px 20px;
+   background-color: #e4edf7;
+   color:#345c8a;
+   border-radius: 30px;
+   vertical-align: top;
+}
+
+/* Section 2. It contains skil or Things I love*/
+.section_2 {
+   margin: auto;
+   background-image: url(https://media.istockphoto.com/vectors/abstract-uneven-backbrond-vector-id1145351600?k=20&m=1145351600&s=612x612&w=0&h=5qa_xhjsoK2Cw2-ZQHKPRqn1Y0sw-zQAHgktaEfWc1M=);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 1300px;
+   height: fit-content;
+   padding: 20px 50px 80px 50px;
+   background-color: #e0daf0;
+}
+
+.section_2_things_i-love {
+   margin-top: 0px;
+   padding: 50px 0px 30px 0px;
+   text-align: center;
+   font-size: 30px;
+
+}
+.section_2_skill_part_1 {
+   display: inline-block;
+   width: 250px;
+   height: 400px;
+   margin:10px 30px 30px 145px;
+   padding: 20px;
+   text-align: center;
+   text-align: center;
+   background-color: #eeeeee;
+   border-radius: 40px;
+}
+.section_2_skill_part_2 {
+   display: inline-block;
+   width: 250px;
+   height: 400px;
+   margin: 10px 30px 30px 30px;
+   padding: 20px;
+   text-align: center;
+   background-color: #eeeeee;
+   border-radius: 40px;
+   position: relative;
+   top: 20px;
+}
+.section_2_skill_part_3 {
+   display: inline-block;
+   width: 250px;
+   height: 400px;
+   margin: 10px 100px 30px 30px;
+   padding: 20px;
+   text-align: center;
+   text-align: center;
+   background-color: #eeeeee;
+   border-radius: 40px;
+}
+.section_2_image {
+   height: 100px;
+   border-radius: 50%;
+   margin: 10px;
+   padding: 40px 0px 20px 0px;
+}
+/* article 1 or About me part*/
+.about_me {
+   margin: auto;
+   background-image: url(https://media.istockphoto.com/vectors/abstract-background-of-smooth-curves-vector-id1205872379?k=20&m=1205872379&s=612x612&w=0&h=D395L4oU2PSp8ei40cFCPvvhFIAuKLUPA1qK75GPu3I=);
+   background-size: cover;
+   width: 1300px;
+   height: fit-content;
+   padding: 20px 50px 150px 50px;
+   background-color: #daeff0;
+}
+.about_me_heading {
+   font-size: 30px;
+   text-align: center;
+   padding: 50px 0px 10px 0px;
+   margin-top: 0px;
+   font-size: 30px;
+}
+#my_picture {
+   display: inline-block;
+}
+#my_picture > img {
+   height: 300px;
+   width: 200px;
+   border-radius: 40%;
+   margin:0px 50px 0px 230px;
+   padding:20px;
+
+}
+.about_me_body {
+   display: inline-block;
+   width: 550px;
+   height: 310px;
+   margin: 25px 60px 30px 5px;
+   padding: 10px 10px;
+   vertical-align: top;
+   text-align: justify;
+}
+
+/* Some quotes*/
+.quote {
+   margin: auto;
+   background: linear-gradient(45deg, #94d2eb 0%, #ffffff 100%);
+   width: 1200px;
+   height: fit-content;
+   padding: 0px 65px 10px 135px;
+   vertical-align: middle;
+}
+.quote_1 {
+   height: 85px;
+   width: 240px;
+   display: inline-block;
+   padding: 20px;
+   background-color: #eeeeee;
+   border-radius: 20px;
+   margin: 10px 20px 10px 130px;
+   position: relative;
+   top: -80px;
+}
+.quote_2 {
+   height: 85px;
+   width: 240px;
+   display: inline-block;
+   padding: 20px;
+   background-color: #eeeeee;
+   border-radius: 20PX;
+   margin: 10px 20px 10px;
+   position: relative;
+   top: -60px;
+}
+.quote_3 {
+   height: 85px;
+   width: 240px;
+   display: inline-block;
+   padding: 20px;
+   background-color: #eeeeee;
+   border-radius: 20px;
+   margin: 10px 20px 10px;
+   position: relative;
+   top: -80px;
+}
+
+/* Footer > address > get in touch / queries*/
+footer {
+   margin: auto;
+}
+.footer_get_in_touch {
+   margin: auto;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLafJBTnVCxMHROHmQ2uiXT9WtkcZEN4XNgg&usqp=CAU);
+   background-size: cover;
+   width: 1200px;
+   height: fit-content;
+   padding: 0px 65px 120px 135px;
+   font-style: normal;
+   background-color: #c5edea;
+}
+#footer_get_in_touch_heading {
+   font-size: 30px;
+   text-align: center;
+   padding: 50px 0px 30px 0px;
+   margin-top: 0px;
+   font-size: 30px;
+}
+.footer_thank_you_note {
+   display: inline-block;
+   width: 350px;
+   height: 300px;
+   margin: 40px -5px 40px 130px;
+   padding: 10px 10px 20px 20px;
+   text-align: center;
+   background-color: #4fadc9;
+   border-radius: 40px;
+}
+
+.footer_get_in_touch img {
+   width: 110px;
+   margin-top: 70px;
+   
+}
+
+.footer_get_in_touch_form {
+   display: inline-block;
+   width: 500px;
+   height: 340px ;
+   margin: 10px 20px 0px 0px;
+   padding: 30px 20px;
+   vertical-align: top;
+   background-color: #81b4de;
+   border-radius: 40px;
+}
+.footer_input_name {
+   display: inline-block;
+   margin: 10px 20px 10px;  
+}
+.footer_input_name input {
+   width: 190px;
+   margin-top: 5px;
+   height: 25px;
+   border-radius: 10px;
+}
+.footer_input_email {
+   display: inline-block;
+   margin: 10px 20px 10px ;
+}
+.footer_input_email input {
+   width: 190px;
+   margin-top: 5px;
+   height: 25px;
+   border-radius: 10px;
+}
+.footer_input_message {
+   margin: 10px 20px 10px;
+}
+.footer_input_message input {
+   margin: 5px 20px 5px 0px;
+   height: 150px;
+   width: 430px;
+   border-radius: 20px;
+}
+input[type="submit"] {
+   margin: 0px 10px 10px 380px;
+   padding: 15px;
+   border-radius: 10px;
+}
+
+/*last part social media links and declaration*/
+.last_part {
+   margin: auto;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkyULz-Dpcux6an4dUd_a8iuBjSNqGVJWYPg&usqp=CAU);
+   background-size: cover;
+   width: 1400px;
+   height: 300px;
+   background-color: #9076ab;
+}
+.social_media_links {
+   height: 30px;
+   margin: auto;
+   padding: 80px 20px 20px;
+}
+.social_media_links td {
+   height: 120px;
+   width: 120px;
+}
+
+.social_media_links a {
+   height: 100px;
+   width: 100px;
+   padding: 15px;
+   background-color: #FFFFFF;
+   border-radius: 50%;
+   
+}
