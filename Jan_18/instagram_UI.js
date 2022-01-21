@@ -8,8 +8,8 @@ var count = 0;
 function heart_react() {
    count++;
    if(count % 2 == 0) {
-      heart.style.color = "#000000";
-      heart2.style.color = "#000000";
+      heart.style.color = "#aaaaaa";
+      heart2.style.color = "#aaaaaa";
       heart.style.fontSize = "24px";
       heart2.style.fontSize = "24px";
    } else {
